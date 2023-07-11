@@ -1,0 +1,34 @@
+---
+import PageSection from "src/components/shared/PageSection.astro"
+
+import { Icon } from "astro-icon"
+---
+
+<PageSection>
+  <div class="mx-auto w-fit">
+    <h1 class="mt-20 mb-8 text-9xl flex flex-col">
+      <span class="font-black">Genaro</span>
+      <span class="font-black">Bonavita.</span>
+    </h1>
+
+    <h2 class="text-6xl">Frontend Developer</h2>
+
+    <nav class="my-12">
+      <ul class="flex items-center gap-4">
+        <li>
+          <button
+            class="dark:bg-light text-light bg-dark dark:text-dark py-4 px-6 rounded-full font-bold"
+          >
+            Download CV
+          </button>
+        </li>
+        <li>
+          <button><Icon class="w-12" name="tabler:brand-github" /></button>
+        </li>
+        <li>
+          <button><Icon class="w-12" name="tabler:brand-linkedin" /></button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</PageSection>
