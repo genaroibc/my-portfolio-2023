@@ -1,3 +1,13 @@
-<section class="max-w-page-max-width mx-auto">
+---
+interface Props {
+  title?: string
+}
+
+const { title } = Astro.props
+---
+
+<section class="max-w-page-max-width mx-auto my-20">
+  {title && <h3 class="font-semibold text-5xl mb-10">{title}</h3>}
+
   <slot />
 </section>
