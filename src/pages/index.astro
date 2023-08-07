@@ -5,12 +5,12 @@ import MainLayout from "@/layouts/MainLayout.astro"
 import Hero from "@/components/sections/Hero.astro"
 import About from "@/components/sections/About.astro"
 
-import ThemeToggle from "@/components/shared/ThemeToggle.astro"
+import ThemeToggle from "@/components/shared/ThemeToggle.tsx"
 ---
 
 <MainLayout>
   <div class="mx-auto w-fit my-4">
-    <ThemeToggle />
+    <ThemeToggle client:load />
   </div>
 
   <Hero />
