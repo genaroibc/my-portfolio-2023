@@ -8,7 +8,7 @@ module.exports = {
         light: "rgb(255 255 255)"
       },
       maxWidth: {
-        "page-max-width": "1400px"
+        "page-max-width": "1000px"
       }
     }
   },
